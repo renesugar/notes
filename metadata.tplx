@@ -1,0 +1,14 @@
+((*- extends 'article.tplx' -*))
+
+((* block author *))
+\author{Rene Sugar}
+((* endblock author *))
+
+((* block title *))
+\title{Monad Tutorial}
+((* endblock title *))
+
+((* block bibliography *))
+\bibliographystyle{unsrt}
+\bibliography{monad}
+((* endblock bibliography *))
